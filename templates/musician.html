@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Login</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!-- Custom Theme files -->
+<link href="static/css/style.css" rel="stylesheet" type="text/css" media="all" />
+<!-- //Custom Theme files -->
+<!-- web font -->
+<link href="//fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i" rel="stylesheet">
+<!-- //web font -->
+  <form>
+      <label for="instrument">Instrument:</label>
+      <select id="instrument" name="instrument">
+        <option value="piano">Piano</option>
+        <option value="guitar">Guitar</option>
+        <option value="drums">Drums</option>
+        <option value="bass">Bass</option>
+      </select>
+      <br>
+
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name">
+      <br>
+
+      <label for="experience">Experience:</label>
+      <input type="number" id="experience" name="experience" min="0" max="50">
+      <br>
+
+      <label for="salary">Salary:</label>
+      <input type="number" id="salary" name="salary" min="0">
+      <br>
+
+      <input type="submit" value="Submit">
+    </form>
+</body>
+</html>

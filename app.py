@@ -61,6 +61,10 @@ def signin():
 def home():
   return render_template('home.html')
 
+@app.route('/musician', methods=['GET', 'POST'])
+def musician():
+  return render_template('musician.html')
+
 @app.route("/signout")
 def signout():
   login_session['user'] = None
